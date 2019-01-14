@@ -1,6 +1,4 @@
-function sum() {
-  const args = Array.prototype.slice.call(arguments);
-
+function sum(...args) {
   if (!args.every(Number.isFinite)) {
     throw new TypeError('sum() expects only numbers.');
   }

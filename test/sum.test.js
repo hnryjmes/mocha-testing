@@ -1,8 +1,7 @@
+const { expect } = require('chai');
 const sum = require('../sum');
-const expect = require('chai').expect;
 
 describe('#sum()', () => {
-  
   context('without arguments', () => {
     it('should return 0', () => {
       expect(sum()).to.equal(0);
@@ -21,7 +20,7 @@ describe('#sum()', () => {
 
   context('with non-number arguments', () => {
     it('should throw error', () => {
-      expect(() => { sum(1, 2, '3', [4], 5) }).to.throw(TypeError, 'sum() expects only numbers.');
+      expect(() => { sum(1, 2, '3', [4], 5); }).to.throw(TypeError, 'sum() expects only numbers.');
     });
-  })
+  });
 });
