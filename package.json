@@ -18,6 +18,8 @@
   "homepage": "https://github.com/hnryjmes/mocha-testing#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "eslint-plugin-mocha": "^5.2.1",
     "mocha": "^5.2.0"
   }
 }
