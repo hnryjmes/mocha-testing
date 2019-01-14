@@ -14,12 +14,12 @@ describe('#promiseMd5()', () => {
   });
 
   context('with non-string argument', () => {
-    it('should throw an error', () => (
-      promiseMd5()
+    it('should throw an error', async () => {
+      await promiseMd5(12345)
         .catch((err) => {
           expect(() => { throw err; })
             .to.throw(TypeError, 'Data must be a string or a buffer');
-        })
-    ));
+        });
+    });
   });
 });
