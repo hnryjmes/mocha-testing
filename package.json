@@ -1,0 +1,22 @@
+{
+  "name": "mocha-testing",
+  "version": "1.0.0",
+  "description": "Learning how to write and run tests in JS using Mocha, following [a LogRocket tutorial.](https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnryjmes/mocha-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnryjmes/mocha-testing/issues"
+  },
+  "homepage": "https://github.com/hnryjmes/mocha-testing#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
